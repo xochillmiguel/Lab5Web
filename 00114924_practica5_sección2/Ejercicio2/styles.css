@@ -1,0 +1,25 @@
+:root {
+  --beige: #faf3e0;
+  --gris: #2c2c2c;
+  --terracota: #b3541e;
+  --marron: #8c3f2b;
+  --blanco: #fff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--beige);
+  color: var(--gris);
+  padding: 20px;
+}
+
+.precio-total {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--terracota);
+  padding: 10px;
+  background-color: var(--blanco);
+  border-left: 4px solid var(--marron);
+  border-radius: 4px;
+  max-width: fit-content;
+}

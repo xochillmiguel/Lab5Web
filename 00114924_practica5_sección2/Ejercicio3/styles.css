@@ -1,0 +1,58 @@
+:root {
+  --beige: #faf3e0;
+  --gris: #2c2c2c;
+  --terracota: #b3541e;
+  --marron: #8c3f2b;
+  --blanco: #fff;
+  --verde: #2e7d32;
+  --rojo: #c62828;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--beige);
+  color: var(--gris);
+  padding: 40px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--marron);
+  margin-bottom: 20px;
+}
+
+#libros p {
+  background-color: var(--blanco);
+  padding: 12px;
+  border-left: 4px solid var(--terracota);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.leido {
+  color: var(--verde);
+  border-left-color: var(--verde);
+}
+
+.no-leido {
+  color: var(--rojo);
+  border-left-color: var(--rojo);
+}
+
+#sugerencia {
+  margin-top: 30px;
+}
+
+.sugerencia {
+  background-color: var(--blanco);
+  padding: 14px;
+  border-left: 6px solid var(--marron);
+  border-radius: 5px;
+  color: var(--terracota);
+  font-weight: bold;
+  font-size: 17px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
